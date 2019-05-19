@@ -1,1 +1,1 @@
-1. Write a program that reads an integer and prints it in binary, octal, and hexadecimal. Print the reciprocal as a hexaecimal floating-point number.
+1. **Integer Printer -** Write a program that reads an integer and prints it in binary, octal, and hexadecimal. Print the reciprocal as a hexaecimal floating-point number.
