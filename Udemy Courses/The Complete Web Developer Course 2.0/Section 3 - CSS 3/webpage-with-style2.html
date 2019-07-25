@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Webpage With Style  2</title>
+	<link href="https://fonts.googleapis.com/css?family=Hanalei&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			background-color: gray;
+		}
+		.square{
+			width: 100px;
+			height: 100px;
+			margin: 40px;
+			float: left;
+		}
+		#square-red{
+			background-color: red;	
+			border: 10px solid black;
+		}
+		#square-blue{
+			background-color: blue;
+			border-style: ridge solid dotted dashed;
+			border-color: green beige pink palegoldenrod;
+			border-width: 10px 5px 2px 1px;
+		}
+		#square-green{
+			background-color: green;
+			border-radius: 50%;
+		}
+		p{
+			clear: both;
+			font-size: 200%;
+			font-family: "Times New Roman", Times,serif;
+		}
+		#google-font{
+			font-family: 'Hanalei', cursive;
+		}
+		.bold{
+			font-weight: bold;
+		}
+		.italic{
+			font-style: italic;
+		}
+		.underlined{
+			text-decoration: underline;
+		}
+		a{
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: underline;
+			color: green;
+		}
+		.big{
+			font-size: 400%;
+		}
+		.text-alignment{
+			width: 600px;
+			height: 300px;
+			background-color: orange;
+		}
+		.right-aligned-text{
+			text-align: right;
+		}
+		.center-aligned-text{
+			text-align: center;
+		}
+		.justify-aligned-text{
+			text-align: justify;
+		}
+	</style>
+</head>
+<body>
+	<div id="square-red" class="square"></div>
+	<div id="square-blue" class="square"></div>
+	<div id="square-green" class="square"></div>
+
+	<p>This is some text!</p>
+	<p id="google-font">This is some more text!</p>
+	<p class="bold">This is some bold text!</p>
+	<p class="italic">This is some italic text!</p>
+	<p class="bold"><span class="italic">This text is both bold and italic!</span></p>
+	<p class="underlined">This text is underlined!</p>
+	<p><a href="">This link is not underlined until hovered and will turn green!</a></p>
+	<p class="big">This text is BIG!</p>
+	<div class="text-alignment">
+		<p class="right-aligned-text">This text is right aligned!</p>
+		<p class="center-aligned-text">This text is center aligned!</p>
+		<p class="justify-aligned-text">This text is justify aligned! This text is justify aligned! This text is justify aligned! This text is justify aligned! This text is justify aligned! This text is justify aligned!</p>
+	</div>
+
+	<p><a href="http://www.google.com" target="_blank">Google in a new tab!</a></p>
+	
+</body>
+</html>
